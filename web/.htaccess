@@ -1,4 +1,5 @@
-# Redirect incoming URLs to index.php
+# Sa permet de configurer le serveur Web Apache pour rediriger toutes les requetes entrante vers index.php
+
 <IfModule mod_rewrite.c>
     Options -MultiViews
 

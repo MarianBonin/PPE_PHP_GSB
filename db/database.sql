@@ -1,4 +1,4 @@
-create database if not exists microcms character set utf8 collate utf8_unicode_ci;
-use microcms;
+create database if not exists gsbphp character set utf8 collate utf8_unicode_ci;
+use gsbphp;
 
-grant all privileges on microcms.* to 'microcms_user'@'localhost' identified by 'secret';
+grant all privileges on gsbphp.* to 'root'@'localhost' identified by 'root';
